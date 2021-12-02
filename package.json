@@ -1,0 +1,23 @@
+{
+  "name": "aoc21",
+  "version": "1.0.0",
+  "description": "Advent of Code, 2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SonicRift/AdventOfCode21.git"
+  },
+  "author": "Shane Sutro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SonicRift/AdventOfCode21/issues"
+  },
+  "homepage": "https://github.com/SonicRift/AdventOfCode21#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0"
+  }
+}
