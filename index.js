@@ -1,1 +1,1 @@
-const d1c1 = require('./Day 1/d1c1.js')
+const d1c1 = require('./Day 3/d3c1.js');
