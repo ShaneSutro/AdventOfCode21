@@ -6,8 +6,8 @@ const main = async () => {
   const input = await funcs.input.get(3);
   const calculated = new Array(input[0].length).fill(0);
 
-  let power = '';
-  let otherThing = '';
+  let gamma = '';
+  let epsilon = '';
 
   // Loop through each binary set in the array
   for (let i = 0; i < input.length; i++) {
@@ -35,16 +35,23 @@ const main = async () => {
   for (let i = 0; i < calculated.length; i++) {
     const calc = calculated[i];
     if (calc < 500) {
-      power += String(0);
-      otherThing += String(1);
+      gamma += String(0);
+      epsilon += String(1);
     } else {
-      power += String(1);
-      otherThing += String(0);
+      gamma += String(1);
+      epsilon += String(0);
     }
   }
-  console.log(calculated);
-  console.log(power);
-  console.log(otherThing);
+
+  /**
+   * Use parseInt() with base 2 to convert back to an integer
+   *
+   * Final answer, Regis:
+   */
+  gamma //?
+  const power = parseInt(gamma, 2) * parseInt(epsilon, 2);
 };
+
+main();
 
 module.exports = main;
