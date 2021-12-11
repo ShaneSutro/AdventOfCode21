@@ -8,6 +8,11 @@ const main = async () => {
   // Do something with the prompt data here
 };
 
-main();
+/**
+ * If you are using Quokka to run these tests,
+ * or are running this file directly,
+ * uncomment the below line
+ * main();
+ */
 
 module.exports = main;
